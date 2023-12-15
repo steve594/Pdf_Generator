@@ -11,6 +11,7 @@ for index, row in df.iterrows():
 
     pdf.set_font(family="Times", style="B", size=12)
     pdf.cell(w=0, h=12, txt=row["Topic"], align="L", ln=1, border=0)
+    pdf.line(10,21,200,21)
 
 
 
